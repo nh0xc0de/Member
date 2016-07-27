@@ -1,0 +1,31 @@
+body{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size:18px;
+	color:#555;
+}
+/*header*/
+h1{
+	text-align:center;
+	color:#973344;
+}
+h1 img{
+	position:relative;
+	top:10px;
+}
+/*----- section ----*/
+.album{
+	width:960px;
+	margin:auto;
+}
+ul li{
+	width:150px;
+	height:150px;
+	border:1px solid;
+	padding:5px 5px;
+	float:left;
+}
+
+#image-1,#image-2,#image-3{
+	display:none;
+}
+
