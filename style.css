@@ -2,6 +2,7 @@ body{
 	font-family: Helvetica,Arial,sans-serif;
 	font-size:18px;
 	color:#555;
+	background:url('bg.jpg');
 }
 /*header*/
 h1{
@@ -12,20 +13,44 @@ h1 img{
 	position:relative;
 	top:10px;
 }
-/*----- section ----*/
+/*-----section----*/
 .album{
-	width:960px;
+	width:550px;
 	margin:auto;
 }
 ul li{
 	width:150px;
 	height:150px;
 	border:1px solid;
-	padding:5px 5px;
+	border-radius:4px;
+	padding:10px 10px;
 	float:left;
+	alignment: center;
+	margin:5px 5px;
+	list-style-type: none;
+	background:#F3C59A;
+	position:relative;
 }
 
+a span{
+	width:160px;
+	height:160px;
+	top:0px;
+	alignment: center;
+	position:absolute;
+	display:none;
+	
+}
+ul li:hover a span{
+	display:block;
+	opacity:0.1;
+	background:#F3C59A;
+	transition:all 1s;
+}
 #image-1,#image-2,#image-3{
 	display:none;
+}
+#image-1:target{
+
 }
 
