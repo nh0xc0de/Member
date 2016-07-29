@@ -16,7 +16,7 @@ h1 img{
 /*-----section----*/
 .album{
 	width:550px;
-	margin:auto;
+	margin:0 auto;
 }
 ul li{
 	width:150px;
@@ -56,4 +56,18 @@ ul li:hover a span{
 	position:fixed;
 	overflow:hidden;
 	background: ;
+	z-index:99;
+}
+.overplay img{
+	height:500px;
+	position:relative;
+	opacity:0;
+	transition:opacity 0.5s;
+}
+.overplay:target{
+	width:330px;
+	height:550px;
+}
+.overplay:target img{
+	opacity:1;
 }
